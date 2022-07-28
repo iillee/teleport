@@ -1,0 +1,41 @@
+{
+  "display": {
+    "title": "Doors",
+    "description": "Thesis Scene 01",
+    "navmapThumbnail": "images/scene-thumbnail.png",
+    "favicon": "favicon_asset"
+  },
+  "owner": "ile",
+  "contact": {
+    "name": "author-name",
+    "email": ""
+  },
+  "main": "bin/game.js",
+  "tags": [],
+  "scene": {
+    "parcels": [
+      "13,92","14,92","15,92","16,92","17,92","18,92",
+      "13,91","14,91","15,91","16,91","17,91","18,91",
+      "13,90","14,90","15,90","16,90","17,90","18,90"
+    ],
+    "base": "13,90"
+  },
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      }
+    }
+  ],
+  "requiredPermissions": ["ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"],
+  "featureToggles": {}
+}
